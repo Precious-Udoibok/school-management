@@ -5,7 +5,7 @@ using System;
 
 namespace SchoolManagement.Persistence
 {
-    internal class SchoolManagementDbContext : DbContext
+    public class SchoolManagementDbContext : DbContext
     {
         public SchoolManagementDbContext(DbContextOptions<SchoolManagementDbContext>options) : base(options)
         {

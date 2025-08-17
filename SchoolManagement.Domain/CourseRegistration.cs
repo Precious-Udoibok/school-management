@@ -9,6 +9,8 @@
             ID = id; Name = name; Units = units; Status = status;Semester = semester;
         }
 
+        public CourseRegistration () { }
+
         public void DisplayCourseRegistrationInfo()
         {
             Console.WriteLine($"This {Name} course has an id of {ID} with {Units} Units for {Semester} semester  and it is currently {Status}");

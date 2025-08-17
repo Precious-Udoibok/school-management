@@ -14,6 +14,7 @@ namespace SchoolManagement.Domain
             ID = id; Name = name;
         }
 
+        public FellowshipUnit () { }
         public int ID { set; get; }
         public string Name { set; get; }
         public Student studentID { set; get; }
