@@ -1,8 +1,8 @@
 ﻿
 
-namespace KodeCamp_5._0_Task_4
+namespace SchoolManagement.Domain
 {
-    internal class SchoolPortal
+    public class SchoolPortal
     {
         public int ID {set; get;}
         public string PasswordHash { set; get; }

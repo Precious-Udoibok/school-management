@@ -1,9 +1,9 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace KodeCamp_5._0_Task_4
+namespace SchoolManagement.Domain
 {
-    internal class College
+    public class College
     {
         public College (int id, string name)
         {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KodeCamp_5._0_Task_4
+namespace SchoolManagement.Domain
 {
-    internal class FellowshipUnit
+    public class FellowshipUnit
     {
 
         public FellowshipUnit (int id,string name )

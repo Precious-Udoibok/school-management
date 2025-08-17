@@ -1,7 +1,6 @@
 ﻿
-namespace KodeCamp_5._0_Task_4
-{
-    internal class Student
+namespace SchoolManagement.Domain { 
+    public class Student
     {
         public int ID { set; get; }
         public string Name { get; set; }

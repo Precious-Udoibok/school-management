@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using System.Data;
+using SchoolManagement.Domain;
+using System;
 
 namespace SchoolManagement.Persistence
 {
@@ -10,11 +11,19 @@ namespace SchoolManagement.Persistence
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating( ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
         }
 
-        public DataSet<>
+        //Creating the tables
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<College> Colleges { get; set; }
+        public DbSet<CourseRegistration> CourseRegistrations { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Hostel> Hostels { get; set; }
+        public DbSet<Lecturer> Lecturers { get; set; }
+        public DbSet<SchoolPortal> SchoolPortals { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }

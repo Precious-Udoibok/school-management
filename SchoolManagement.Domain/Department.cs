@@ -1,7 +1,6 @@
 ﻿
-namespace KodeCamp_5._0_Task_4
-{
-    internal class Department
+namespace SchoolManagement.Domain { 
+    public class Department
     {
 
         //Testing using Constructor 

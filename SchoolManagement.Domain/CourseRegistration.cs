@@ -1,6 +1,6 @@
-﻿namespace KodeCamp_5._0_Task_4
+﻿namespace SchoolManagement.Domain
 {
-    internal class CourseRegistration
+    public class CourseRegistration
     {
 
         public CourseRegistration (int id, string name, string units,string status,
